@@ -44,7 +44,7 @@ input, svg {
     width: 100%;
     border: 2px solid black;
     border-radius: 20px;
-    background-color: white;
+    background-color: #342f2f;
 }
 
 input[type=radio] {width: 50px}

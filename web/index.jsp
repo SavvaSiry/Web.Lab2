@@ -9,9 +9,9 @@
 </head>
 <body>
 <header class="header">
-  <h1>Веб-программирование, Лаб. 2, Вариант 282301</h1>
-  <h2 align="left">Шахов Кирилл Андревич(back)</h2>
-  <h2>Федоров Никита Сергеевич(front)</h2>
+  <h1>Веб-программирование, Лаб. 2, Вариант 10215</h1>
+  <h2>Сирый Савва</h2>
+
 </header>
 <table id="mainTable" class="shaded">
   <thead><td colspan="5"><h3>Валидация введённых значений:</h3></td></thead>
@@ -23,31 +23,25 @@
     <td><input name="X-button" class="illuminated animated" type="button" value="-1.5"></td>
     <td><input name="X-button" class="illuminated animated" type="button" value="-1.0"></td>
     <td rowspan="6">
-      <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
-        <line x1="0" y1="150" x2="300" y2="150" stroke="#000720"></line>
-        <line x1="150" y1="0" x2="150" y2="300" stroke="#000720"></line>
-        <line x1="270" y1="148" x2="270" y2="152" stroke="#000720"></line>
-        <text x="265" y="140">R</text>
-        <line x1="210" y1="148" x2="210" y2="152" stroke="#000720"></line>
-        <text x="200" y="140">R/2</text>
-        <line x1="90" y1="148" x2="90" y2="152" stroke="#000720"></line>
-        <text x="75" y="140">-R/2</text>
-        <line x1="30" y1="148" x2="30" y2="152" stroke="#000720"></line>
-        <text x="20" y="140">-R</text>
-        <line x1="148" y1="30" x2="152" y2="30" stroke="#000720"></line>
-        <text x="156" y="35">R</text>
-        <line x1="148" y1="90" x2="152" y2="90" stroke="#000720"></line>
-        <text x="156" y="95">R/2</text>
-        <line x1="148" y1="210" x2="152" y2="210" stroke="#000720"></line>
-        <text x="156" y="215">-R/2</text>
-        <line x1="148" y1="270" x2="152" y2="270" stroke="#000720"></line>
-        <text x="156" y="275">-R</text>
-        <polygon points="300,150 295,155 295, 145" fill="#000720" stroke="#000720"></polygon>
-        <polygon points="150,0 145,5 155,5" fill="#000720" stroke="#000720"></polygon>
-        <rect x="90" y="30" width="60" height="120" fill-opacity="0.4" stroke="navy" fill="blue"></rect>
-        <polygon points="150,150 270,150 150,270" fill-opacity="0.4" stroke="navy" fill="blue"></polygon>
-        <path d="M150 150 L 210 150 C 220 130 200 80 150 90 L Z" fill-opacity="0.4" stroke="navy" fill="blue"></path>
-        <circle id="pointer" r="5" cx="150" cy="150" fill-opacity="0.7" fill="red" stroke="firebrick" visibility="hidden"></circle>
+      <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M257 158.499H150.165V264L45 158.499H96.748V52H149.832C197.573 52 257 81.9529 257 158.499Z" fill="#FFB800"/>
+        <path d="M257 158.499H150.165V264L45 158.499H96.748V52H149.832C197.573 52 257 81.9529 257 158.499Z" fill="url(#paint0_linear_0:1)"/>
+        <path d="M150 0L150 300" stroke="#FF8A00" stroke-width="2"/>
+        <path d="M0 158H300" stroke="#FF8A00" stroke-width="2"/>
+        <path d="M203.333 143.333L203.333 172.333" stroke="#FF8A00" stroke-width="2"/>
+        <path d="M96.6667 143.333L96.6667 172.333" stroke="#FF8A00" stroke-width="2"/>
+        <path d="M135.333 211.333H164.333" stroke="#FF8A00" stroke-width="2"/>
+        <path d="M135.333 104.667H164.333" stroke="#FF8A00" stroke-width="2"/>
+        <path d="M150 52H97V158" stroke="#FF8A00" stroke-width="2"/>
+        <path d="M44 158L150 265" stroke="#FF8A00" stroke-width="2"/>
+        <path d="M150 52.003C235.065 51.4731 256.11 121.114 256 156" stroke="#FF8A00" stroke-width="2"/>
+        <defs>
+          <linearGradient id="paint0_linear_0:1" x1="151" y1="52" x2="151" y2="264" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E31D1D"/>
+            <stop offset="1" stop-color="#F50303" stop-opacity="0"/>
+            <stop offset="1" stop-color="#77C711" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
       </svg>
     </td>
   </tr>

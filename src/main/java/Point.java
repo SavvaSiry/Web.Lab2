@@ -1,6 +1,8 @@
 import java.io.Serializable;
 import java.util.Date;
 
+import static java.lang.Math.pow;
+
 public class Point implements Serializable {
 
     private double x, y, r;
@@ -15,9 +17,17 @@ public class Point implements Serializable {
     }
 
     private boolean checkCoordinates(double x, double y, double r) {
-        return  (((x <= r) && (x >= 0) && (y <= 0) && (y >= -r)) &&(y >= x - r) || //треугольник
-                ((x <= 0) && (x >= -r/2) && (y >= 0) && (y <= r)) || //квадрат
-                ((Math.pow(x, 2) + Math.pow(y, 2)) <= ((Math.pow(r/2, 2))) && (x >= 0) && (y >= 0))); //круг
+        if ((x < -2 || x > 2) || (y < -5 || y > 5) || (r > 5 || r < 0)) {
+            return false;
+        } else if (y < 0 && x < 0) {
+            return y > (-x - r);
+        } else if (x < 0 && y > 0) {
+            return x > (-r / 2) && y < r;
+        } else if (x > 0 && y > 0) {
+            return pow(r, 2) > (pow(x, 2) + pow(y, 2));
+        } else if (x > 0 && y < 0) {
+            return false;
+        } else return x == 0 && y == 0;
     }
 
     public double getX() {
